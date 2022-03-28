@@ -1,11 +1,21 @@
 * {
     box-sizing: border-box;
     font-family: sans-serif;
+
 }
 
-body {
-    color: #3d6598;
+body{
+    color: black;
     margin: 10px 45px 10px 45px;
+}
+
+#summary {
+    margin: 0 auto 0 auto;
+    width: 30%;
+    position: relative;
+    bottom: 20px;
+    right: 375px;
+
 }
 
 
@@ -14,13 +24,15 @@ body {
     margin:0 auto 0 auto;
     padding: 0 auto 0 auto;
     height: 20px;
-    color: #3d6598;
+    color: black;
 }
 
 hr {
-    border: 1px solid black;
+    color: black;
+    border-top: 1px solid black;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
+    width: 100%;
 }
 
 #navbar{
@@ -45,7 +57,7 @@ button {
 }
 
 #hireme {
-    box-shadow: 10px 10px #3d6598;
+    box-shadow: 5px 5px #3d6598;
 }
 
 button:hover {
@@ -68,7 +80,7 @@ button:hover {
 
 #Paris{
     position:relative;
-    top: 75px;
+    top: 50px;
     left:400px;
     border-radius: 50%;
     padding:0 auto;
@@ -88,12 +100,16 @@ button:hover {
     display: inline-block;
 }
 
+#email {
+    text-decoration: underline;
+}
+
 .images {
     display: inline-block;
     height: 300px;
     width: 300px;
     margin-left: 75px;
-    margin-top: 275px;
+    margin-top: 150px;
     margin-bottom: 125px;
     opacity: 0.8;
 }
@@ -106,15 +122,21 @@ button:hover {
     text-align:left;
     width: 40%;
     margin-left: 35px;
+    position: relative;
+    bottom: 40px;
+    font-weight:800;
 }
+ #culture{
+     text-align: center;
+     margin: auto auto;
+ }
 
 #resume{
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
     text-align: center;
     padding: 10px;
     font-style: bold;
     font-size: 20px;
-    background-color: aliceblue;
 }
 
 .cell{
@@ -128,5 +150,20 @@ button:hover {
 #aboutme{
     width: 75%;
     text-align: center;
+    margin: 0 auto 100px auto;
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 500;
+}
+
+table{
+    text-align: center;
     margin: auto auto;
+}
+
+video {
+    height: 500px;
+    width: 1000px;
+    margin: 25px auto 100px auto;
+    padding: 100px auto 100px auto;
 }
