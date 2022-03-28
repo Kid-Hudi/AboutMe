@@ -1,3 +1,132 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
 body {
-  background-color: #3d6598;
+    color: #3d6598;
+    margin: 10px 45px 10px 45px;
+}
+
+
+.header{
+    display:inline-block;
+    margin:0 auto 0 auto;
+    padding: 0 auto 0 auto;
+    height: 20px;
+    color: #3d6598;
+}
+
+hr {
+    border: 1px solid black;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+#navbar{
+    color: black;
+    height: 30px;
+}
+
+#thomas{
+    margin-right: 500px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+button {
+    width: 100px;
+    margin: 0 20px 0 20px;
+    background-color: white;
+    border: 2px solid #3d6598;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#hireme {
+    box-shadow: 10px 10px #3d6598;
+}
+
+button:hover {
+    background-color: #3d6598;
+}
+
+
+#name{
+    padding-left: 30px;
+    padding-right: 0px;
+    margin-right: 500px;
+    font-size: 35px;
+    
+}
+
+#nav{
+    width: 300px;
+    height: 10px;
+}
+
+#Paris{
+    position:relative;
+    top: 75px;
+    left:400px;
+    border-radius: 50%;
+    padding:0 auto;
+    width: 17%;
+    height: 17%;
+}
+
+#contact{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #3d6598;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.images {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin-left: 75px;
+    margin-top: 275px;
+    margin-bottom: 125px;
+    opacity: 0.8;
+}
+
+.images:hover{
+    opacity: 1;
+}
+
+#title{
+    text-align:left;
+    width: 40%;
+    margin-left: 35px;
+}
+
+#resume{
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    font-style: bold;
+    font-size: 20px;
+    background-color: aliceblue;
+}
+
+.cell{
+    padding: 20px;
+}
+
+#head{
+    font-style: bold;
+}
+
+#aboutme{
+    width: 75%;
+    text-align: center;
+    margin: auto auto;
 }
